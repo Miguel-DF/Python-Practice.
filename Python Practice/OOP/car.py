@@ -8,7 +8,7 @@ class Car:
 
     # Method to simulate driving the car
     def drive(self):
-        print("This car is driving")
+        print("This "+ self.model + " is driving")
 
     # Method to simulate stopping the car
     def stop(self):
